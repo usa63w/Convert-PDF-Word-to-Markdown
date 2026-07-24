@@ -1,0 +1,15 @@
+{
+    "cSpell.words": [
+        "agentic",
+        "edient",
+        "ediprod",
+        "ERRORLEVEL",
+        "USERPROFILE",
+        "workitem",
+        "workitems"
+    ],
+    "cSpell.ignoreRegExpList": [
+        "^[A-Z_][A-Z0-9_]*$"
+    ],
+    "editor.formatOnSave": true
+}

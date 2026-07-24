@@ -1,0 +1,21 @@
+# Input directory - only track _What-this-directory-is-for.md
+input/*
+!input/_What-this-directory-is-for.md
+!input/.gitkeep
+
+# Output directory - only track _What-this-directory-is-for.md
+output/*
+!output/_What-this-directory-is-for.md
+!output/.gitkeep
+
+# Working-files directory - only track _What-this-directory-is-for.md
+working-files/*
+!working-files/_What-this-directory-is-for.md
+!working-files/.gitkeep
+
+# IDE and OS
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
