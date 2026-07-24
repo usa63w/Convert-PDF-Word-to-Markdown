@@ -13,6 +13,17 @@ This conversion tool follows strict principles to ensure the integrity of your o
 5. **No interpretation** - Grammar, spelling, and language are not corrected or modernized
 6. **Original order maintained** - Content is presented exactly as it appears in the source document
 
+## Supported AI Tools
+
+The conversion agent is designed to work with any of the following AI tools:
+
+- **Copilot** - Microsoft's AI assistant
+- **Claude** - Anthropic's Claude AI
+- **Gemini** - Google's Gemini AI
+- **OpenAI** - OpenAI's GPT models
+
+Each AI tool has a dedicated agent configuration available in the `/skill/document-to-markdown/agents/` directory. You can select which AI tool to use based on your preference, availability, or integration requirements.
+
 ## Directory Structure
 
 ### `/input`

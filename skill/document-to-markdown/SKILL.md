@@ -1,6 +1,6 @@
 ---
 name: document-to-markdown
-description: Convert Microsoft Word and PDF documents into faithful Markdown reproductions. Use this skill whenever a document must be converted without rewriting, summarizing, correcting, or interpreting its contents.
+description: Convert Microsoft Word and PDF documents into faithful Markdown reproductions. Use this skill whenever a document must be converted without rewriting, summarizing, correcting, or interpreting its contents. Works with Copilot, Claude, Gemini, or OpenAI.
 ---
 
 # Document to Markdown
