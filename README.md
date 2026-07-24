@@ -22,7 +22,7 @@ The conversion agent is designed to work with any of the following AI tools:
 - **Gemini** - Google's Gemini AI
 - **OpenAI** - OpenAI's GPT models
 
-Each AI tool has a dedicated agent configuration available in the `/skill/document-to-markdown/agents/` directory. You can select which AI tool to use based on your preference, availability, or integration requirements.
+Each AI tool has a dedicated agent configuration available in the `/skill/agents/` directory. You can select which AI tool to use based on your preference, availability, or integration requirements.
 
 ## Directory Structure
 
@@ -83,4 +83,4 @@ This repository uses the following structure:
 
 ---
 
-For more information, see the principle documents and agent specifications in the `/skill` directory.
+For more information, see the principle documents and agent specifications in the `/skill/` directory.
