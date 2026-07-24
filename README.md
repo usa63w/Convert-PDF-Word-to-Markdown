@@ -16,29 +16,36 @@ This conversion tool follows strict principles to ensure the integrity of your o
 ## Directory Structure
 
 ### `/input`
+
 Place your source Microsoft Word (.docx) or PDF (.pdf) documents here. See `_What-this-directory-is-for.md` for details.
 
 ### `/output`
+
 Contains the final converted Markdown files and their associated images:
+
 - Markdown files match the source filename with `.md` extension
 - Images are organized in document-specific directories (e.g., `images-Document-Name/`)
 - See `_What-this-directory-is-for.md` for details
 
 ### `/working-files`
+
 Temporary files, intermediate artifacts, and diagnostic outputs used during conversion. These files are not part of the final output and can be safely deleted after conversion. See `_What-this-directory-is-for.md` for details.
 
 ### `/skill`
+
 Contains the conversion agent specifications and reference materials.
 
 ## Image Handling
 
 When documents contain images or diagrams:
+
 - A document-specific image directory is created (e.g., `images-Example-Document/`)
 - Images are extracted and preserved in their original quality
 - Markdown image references use relative paths to the extracted files
 - Each image is named with a sequence number: `<document-name>-image-<number>.<extension>`
 
 Example:
+
 ```markdown
 ![](<images-Example-Document/Example-Document-image-001.png>)
 ```
@@ -57,6 +64,7 @@ When uncertain about a conversion, the original content is always preserved. Man
 ## Git Configuration
 
 This repository uses the following structure:
+
 - Only `_What-this-directory-is-for.md` files are tracked in input/, output/, and working-files/ directories
 - All other files in those directories are ignored to keep the repository lean
 - The `.vscode/` directory is included for consistent VS Code configuration across the team
